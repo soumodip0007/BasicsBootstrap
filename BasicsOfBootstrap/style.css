@@ -1,0 +1,79 @@
+body{
+    background: url('/coc1.jpg');
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(219, 169, 102);
+}
+div .coc{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar{
+    background:  rgb(22,28,45);
+}
+li a{
+    color:  rgb(41, 44, 51);
+    text-shadow: 2px 2px 2px #fff;
+}
+li a:hover{
+    color: #d31616;
+    /* text-shadow: 1px 0px 20px #363aa4; */
+    text-shadow: 1px 1px 1px rgb(255, 255, 255), 3px 3px 5px rgb(22,28,45);
+    background-color: none;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: rgb(22,28,45);
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-first{
+    background-color:  #d31616;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-second{
+    border: 3px solid #d31616;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+.btn-first:hover{
+    border: 3px solid #d31616;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.btn-second:hover{
+    border: none;
+    background-color:#d31616;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+    text-shadow: none;
+}
+.banner-info, .banner-image{
+    margin: 30px 0;
+}
+.clash{
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+}
